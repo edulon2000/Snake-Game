@@ -1,0 +1,21 @@
+Snake Game is a classic computer game where the player controls a snake that moves across the screen, 
+collecting food to grow while trying to avoid collisions with walls or its own body. In Python,
+this game can be implemented using libraries such as pygame or turtle, in this small project, turtle was used.
+
+Here's a brief summary of the development of Snake Game in Python:
+
+1 - Environment Setup: The turtle module was imported to create graphics and define the game interface.
+
+2 - Definition of the Snake Class: A Snake class was created to represent the snake in the game. This class may include methods to move the snake, change its direction, grow when eating food, and check for collisions.
+
+3 - Definition of the Food Class: The Food class was created to represent the food that the snake must eat to grow. This class has methods to randomly set the position of the food and draw it on the screen.
+
+4 - Game Implementation: In the main code, instances of the Snake class and the Food class were created, and code was written to interact with the user (such as capturing keyboard input to change the direction of the snake).
+
+5 - Best Score Control: To track the best score, it was stored in a persistent location (file) that stores the maximum score achieved. Whenever the player reaches a new maximum score, this variable is updated.
+
+6 - Drawing on the Screen: Using methods provided by the turtle module, the snake, food, and any other graphical elements were drawn on the screen.
+
+7 - Main Game Loop: A main loop was created to update the game state (moving the snake, checking collisions, etc.) and draw the elements on the screen repeatedly until the game ends.
+
+8 - Game Finishing: When the game ends (for example, when the snake collides with itself or a wall), a message is displayed on the screen informing the end of the game and showing the score achieved.
